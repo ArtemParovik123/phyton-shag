@@ -7,8 +7,16 @@ class Human:
         self.money = 1000
         self.gladness = 50
         self.odezda = 20
-        self.produkti = 30
-        
+        self.produkti =
+    
+    def buycar(self,carmodel, price)
+        if self.money >= price:
+            self.car = Car(carmodel)
+            self.,oney -= price
+            print(f"Ми купили авто{carmodel} за {price}")
+            else:
+                print("У нас недостаточно грошей для покупки авто")
+                
     def shoping(self):
         if odezda < 5:
             print("Поїхав за одежою")
@@ -17,11 +25,12 @@ class Human:
             print("Поїхав за Їжою")
         
     def work(self):
-        pass
+        salary = random.randint(40, 50)
+        self.money += salary
+        print(f"Сьогодні працюю.Заробив{salary}грн")
     
     def eat(self):
-        pass
-    
+         pass
     def chill(self):
         pass
     
